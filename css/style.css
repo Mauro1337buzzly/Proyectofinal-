@@ -1,0 +1,76 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tamañoImg{
+    height: 100px;
+    width: 100px;
+}
+#contGrid { 
+
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 10px;
+}
+
+
+.carrito { 
+    display: flex;
+    justify-content: center;
+}
+
+table { 
+    border: solid 2px black;
+    overflow: hidden;
+    margin: 20px;
+    padding: 5px;
+}
+
+.tableTitle {
+    font-size: 2rem;
+    margin: 2px;
+    padding: 10px 50px 10px 2px;
+
+}
+
+.carrito > .comprarTodo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+
+
+.colorFlip {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: black;
+    color: white;
+
+}
+
+.color {
+    color: aqua;
+}
+
+.buttonColor{
+    text-transform: uppercase;
+    margin: 0 20px;
+    background: grey;
+    cursor: pointer;
+}
+
+
+  
+
+
+
+
